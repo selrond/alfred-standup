@@ -14,17 +14,17 @@ function startSittingTimer() {
 }
 
 function stopSittingTimer() {
-	sittingTimer = clearInterval(sittingTimer);
+	clearInterval(sittingTimer);
 }
 
 if (alfy.input == "sit") {
-	startSittingTimer();
+	startSittingTimer() &&
 	notifier.notify({
 		'title': 'Start working, I\'ll remind you',
 		'message': 'Really...'
 	});
 }	else if (alfy.input == "stand") {
-	stopSittingTimer();
+	stopSittingTimer() &&
 	notifier.notify({
 		'title': 'Call me when you need me',
 		'message': 'Please do...'
