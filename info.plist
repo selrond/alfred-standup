@@ -7,7 +7,18 @@
 	<key>connections</key>
 	<dict>
 		<key>62A746E1-A833-4811-80D0-0A232986DD7E</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>91BB077A-8E92-4B8B-9647-FA3DECBABBD9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Sebastian Andil</string>
@@ -66,6 +77,23 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}', {allvars}</string>
+				<key>cleardebuggertext</key>
+				<true/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>91BB077A-8E92-4B8B-9647-FA3DECBABBD9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -74,9 +102,16 @@
 		<key>62A746E1-A833-4811-80D0-0A232986DD7E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>420</integer>
+			<integer>110</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>80</integer>
+		</dict>
+		<key>91BB077A-8E92-4B8B-9647-FA3DECBABBD9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
+			<key>ypos</key>
+			<integer>110</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
