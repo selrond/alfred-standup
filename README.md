@@ -1,9 +1,7 @@
 # Alfred Stand Up
-## Usage
 
-In Alfred, type `sit`, <kbd>Enter</kbd>, and your query.
+This Alfred workflow was supposed to become a reminder to stand up and stretch for people with sedentary jobs.
 
+However, as I can't seem to get it working even after I've tried tens of different approaches, and received some advice from [more experienced devs](https://github.com/sindresorhus/conf/issues/28), _I consider it dead_.
 
-## License
-
-MIT © [Sebastian Andil](https://twitter.com/selrond)
+Until someone comes and ressurects it...
